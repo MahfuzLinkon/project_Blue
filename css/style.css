@@ -1,0 +1,301 @@
+body{
+	margin:0;
+}
+.header{
+	background-color: #121B2A;
+}
+.wraper{
+	width: 80%;
+	margin:0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.logo img {
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	float: right;
+	margin-top: 45px;
+}
+.menu ul{
+	float: right;
+}
+
+.menu ul li{
+	list-style:none;
+	float: left;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	color:white;
+	padding: 0px 35px;
+	display:block;
+	text-transform:uppercase;
+	transition: .5s;
+	font-weight: normal;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+color: #006CAA;
+}
+.banner{
+	background-image:url(../images/banner.jpg);
+	background-size: cover;
+	background-position: center;
+
+}
+.content{
+	width: 40%;
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
+.content h1{
+color: white;
+font-size: 40px;
+margin-bottom:0px;
+font-weight: normal;
+}
+.content h2{
+color: #006CAA;
+font-size: 43px;
+margin-top: 0px;
+margin-bottom:0px;
+
+}
+.content p{
+color: white;
+font-size: 17px;
+margin-top: 0px;
+}
+.content button{
+    padding: 7px 20px
+
+}
+.btn_text{
+	font-size: 18px;
+	
+}
+button img{
+	width: 19px;
+    margin-left: 6px;
+}
+.services{
+	background-color:#121B2C;
+	padding: 60px 0 ;
+}
+.single{
+	border-right: 1px solid white;
+	width: 28.5%;
+	float: left;
+	padding: 30px 25px;
+}
+.single:last-child{
+	border-right: none;
+}
+.single_title{
+overflow: hidden;
+}
+.s_image{
+width: 22%;
+float: left;
+}
+.s_image img{
+width: 100%;
+}
+.s_head{
+width: 70%;
+float: left;
+}
+.s_head h1{
+color: white;
+font-size: 20px;
+margin-bottom:0;
+font-weight: normal;
+}
+.s_head h2{
+color:#006CAA;
+font-size: 22px;
+margin-top:3px;
+
+}
+.single_text{
+color: white;
+font-size: 17px;
+}
+.contact{
+	background-color:#050811;
+	overflow: hidden;
+	padding:48px 0px;
+}
+.phone{
+border-right: 1px solid white;
+width: 30%;
+float:left;
+
+
+}
+.info_title{
+	overflow: hidden;
+
+}
+.info_title h1{
+color: white;	
+float: left;
+}
+.info_title h2{
+font-size: 29px;
+float: left;
+color: #006CAA;
+margin-left: 11px;
+float: left;	
+}
+.phone p{
+	color: white;
+	margin-top: 0;
+}
+.ph_em{
+	overflow: hidden;
+}
+.name{
+	color: white;
+	float: left;
+}
+.info{
+	float: left;
+	margin-left: 20px;
+	color: white;
+}
+.customer{
+width: 30%;
+float: left;
+border-right: 1px solid white;
+margin-left:34px;
+margin-right: 34px;
+}
+.customer_title{
+overflow: hidden;
+margin-top: 18px;
+}
+.customer_title h1{
+float: left;
+color: white;
+margin:0px 0px;
+}
+.customer_title h2{
+float: left;
+color:#006CAA;
+font-size: 30px;
+margin:4px 0px 0px 13px;
+}
+.customer_text{
+color: white;
+}
+.customer_text p{
+margin-bottom: 0px;
+}
+.address p{
+	color: white;
+	margin-top: 0px;
+}
+.logo{
+width:30%;
+float: left;
+}
+.logo_rap{
+
+}
+.mob_logo{
+width: 35%;
+float: left;
+}
+.mob_logo img{
+width: 100%;
+margin-top: 22px;
+}
+.app_store{
+float: left;
+margin-left: 22px;
+}
+.app_title{
+
+}
+.app_title h1{
+color: white;
+margin-bottom: 0px;
+}
+.app_title h2{
+color: #006CAA;
+margin-top: 0px;
+}
+.app_logo{
+width: 130%;
+margin-top: 2px;
+}
+.app_logo img{
+	width: 100%;
+}
+footer{
+	background-color: #131A2C;
+}
+.footer_menu_c_text{
+	overflow: hidden;
+}
+.footer_menu{
+	width: 70%;
+	margin-top: 45px;
+}
+.footer_menu ul{
+	float:left;
+}
+
+.footer_menu ul li{
+	list-style:none;
+float: left;
+}
+.footer_menu ul li a{
+	text-decoration: none;
+	color:white;
+	padding: 0px 6px;
+	display:block;
+	text-transform:uppercase;
+	transition: .5s;
+    border-right: 1px solid white;
+    font-size: 13px;
+    font-weight: normal;
+}
+.footer_menu ul li:last-child a{
+	border-right: none;
+}
+.footer_menu ul li:first-child a{
+padding-left: 0;
+}
+.footer_menu ul li a:hover{
+color: #006CAA;
+}
+.footer_logo{
+width:20%;
+float: right;
+}
+.footer_logo img{
+width: 100%;	
+}
+.copyright{
+	width: 80%;
+	margin: 0 auto;
+}
+.copyright p{
+color: white;
+font-size: 13px;
+margin: 0px 0px 15px 39px;
+}
+.copyright p a{
+text-decoration: none;
+color:white;
+}
